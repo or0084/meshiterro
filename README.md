@@ -85,7 +85,17 @@
 ・コメント機能用のモデル、テーブル作成（PostComment）
 ・UserモデルとPostCommentモデルをアソシエーション
 ・PostImageモデルとPostCommentモデルをアソシエーション
-・コントローラ作成（postcomment）
+・コントローラ作成（postcomments）
 ・ルーティング（resources :post_comments）をresources :post_imagesにネストする
 ・コメント投稿機能実装
 ・コメント削除機能実装
+
+
+アプリケーションを完成させよう４−１９
+・いいね機能用のモデル、テーブル作成（Favorite）
+・PostImageモデルとFavoriteモデルをアソシエーション
+・PostImageモデルにfavorited_by?メソッド実装
+・UserモデルとFavoriteモデルをアソシエーション
+・ルーティング（resource :favorites）をresources :post_imagesにネストする
+・コントローラ作成（favorites）
+・いいね機能実装
