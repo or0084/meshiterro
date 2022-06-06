@@ -99,3 +99,6 @@
 ・ルーティング（resource :favorites）をresources :post_imagesにネストする
 ・コントローラ作成（favorites）
 ・いいね機能実装
+
+アプリケーションを完成させよう４−２０
+・部分テンプレート作成
