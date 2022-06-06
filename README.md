@@ -63,3 +63,6 @@
 ・プロフィール画像を扱うためget_profile_imageメソッド実装
 ・コントローラ作成（users show edit）
 ・ルーティングにresources追加（users）
+
+アプリケーションを完成させよう４−１５
+・マイページの作成
